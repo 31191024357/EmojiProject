@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="chitran.ueh.emojipractice">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="EmojiPractice"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EmojiPractice">
+        <activity
+            android:name="chitran.ueh.emojipractice.Failed"
+            android:exported="false" />
+        <activity
+            android:name="chitran.ueh.emojipractice.Sucessful"
+            android:exported="false" />
+        <activity
+            android:name="chitran.ueh.emojipractice.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
